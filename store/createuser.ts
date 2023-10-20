@@ -3,7 +3,7 @@ export const usercreate = defineStore("usercreateStore", {
     userData: {} as UserCreateSendRes,
     userlogin: {} as UserloginRes,
     authenticated: false,
-    userData: {} as UserCreateSendRes,
+    // userData: {} as UserCreateSendRes,
   }),
   actions: {
     async createUser(req: UserCreateSendRes) {
